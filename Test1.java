@@ -10,7 +10,7 @@ public class Test1 {
 		p = new ConsolePrinter();// indirect ref. : up casting 
 		p.print("Another  Mesg....");// javac : chks in Printer i/f for print() --finds  no javac errs , JVM invokes
 										// method print on ConsolePrinter's instance : run time poly.
-
+          System.out.println("Thank You");
 	}
 
 }
